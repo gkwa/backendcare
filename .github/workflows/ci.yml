@@ -7,7 +7,7 @@ name: Build & Test
     branches:
       - "*"
   schedule:
-    - cron: "01 13 * * SAT"
+    - cron: 01 13 * * SAT
 jobs:
   build:
     name: Build & Test
