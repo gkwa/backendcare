@@ -1,0 +1,38 @@
+[project]
+name = "backendcare"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Taylor Monacelli", email = "taylormonacelli@gmail.com" }
+]
+dependencies = [
+    "libcst>=1.2.0",
+]
+readme = "README.md"
+requires-python = ">= 3.9"
+
+[project.urls]
+Homepage = "https://github.com/gkwa/backendcare"
+Repository = "https://github.com/gkwa/backendcare"
+
+[project.scripts]
+backendcare = "backendcare:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/backendcare"]
+
+[tool.ruff.lint]
+extend-select = ["I"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.3",
+]
+
