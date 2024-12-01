@@ -31,7 +31,6 @@ jobs:
         run: |
           . .venv/Scripts/activate.ps1
           pytest -v
-        shell: pwsh
       - name: Activate virtual environment (Linux/macOS)
         if: runner.os != 'Windows'
         run: . .venv/bin/activate && pytest -v
