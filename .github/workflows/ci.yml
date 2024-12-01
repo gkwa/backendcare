@@ -29,8 +29,7 @@ jobs:
       - name: Activate virtual environment (Windows)
         if: runner.os == 'Windows'
         run: |
-          . .venv/Scripts/activate.ps1
-          pytest -v
+          . .venv/Scripts/activate.ps1 -and pytest -v
       - name: Activate virtual environment (Linux/macOS)
         if: runner.os != 'Windows'
         run: . .venv/bin/activate && pytest -v
