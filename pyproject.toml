@@ -33,6 +33,6 @@ extend-select = ["I"]
 
 [dependency-groups]
 dev = [
-    "pytest==8.4.0",
+    "pytest==8.4.1",
 ]
 
