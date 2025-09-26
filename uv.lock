@@ -16,7 +16,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "libcst", specifier = "==1.8.4" }]
+requires-dist = [{ name = "libcst", specifier = "==1.8.5" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = "==8.4.2" }]
@@ -41,29 +41,29 @@ wheels = [
 
 [[package]]
 name = "libcst"
-version = "1.8.4"
+version = "1.8.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pyyaml-ft" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/07/e5/1ecfb0a74ef502d2f3ddc9fad51185a1d4e57d56aae3755073574b6f8237/libcst-1.8.4.tar.gz", hash = "sha256:f0f105d32c49baf712df2be360d496de67a2375bcf4e9707e643b7efc2f9a55a", size = 884416, upload-time = "2025-09-09T19:42:39.52Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5c/55/ca4552d7fe79a91b2a7b4fa39991e8a45a17c8bfbcaf264597d95903c777/libcst-1.8.5.tar.gz", hash = "sha256:e72e1816eed63f530668e93a4c22ff1cf8b91ddce0ec53e597d3f6c53e103ec7", size = 884582, upload-time = "2025-09-26T05:29:44.101Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c8/28/5cd9b6c207d74445d1d82c681139f0a0824a551d3cd0c5369166ce959f8e/libcst-1.8.4-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:8e8d5158f976a5ee140ad0d3391e1a1b84b2ce5da62f16e48feab4bc21b91967", size = 2201679, upload-time = "2025-09-09T19:41:30.748Z" },
-    { url = "https://files.pythonhosted.org/packages/5d/40/9010635bb74b5b18b098f12f7be86dbe5d297fbf93ab143469e7d8e95ed8/libcst-1.8.4-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:a179c712f38acb85e81d8949e80e05a422c92dcf5a00d8f4976f7e547a9f0916", size = 2082225, upload-time = "2025-09-09T19:41:32.474Z" },
-    { url = "https://files.pythonhosted.org/packages/fc/70/a26857526ed23f2d18443d6504e29bc3880564191680e3c1aeb499f31a3d/libcst-1.8.4-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:d130f3e2d40c5f48cbbc804710ddf5b4db9dd7c0118f3b35f109164a555860d2", size = 2229377, upload-time = "2025-09-09T19:41:33.892Z" },
-    { url = "https://files.pythonhosted.org/packages/5a/12/290f530f2fed55ef5ae79d0df1db371cbbfaeb68ea207e177b74356de713/libcst-1.8.4-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:a4270123c988e130cec94bfe1b54d34784a40b34b2d5ac0507720c1272bd3209", size = 2325074, upload-time = "2025-09-09T19:41:35.227Z" },
-    { url = "https://files.pythonhosted.org/packages/cb/e3/c3bce18cd90e1e51917700295511ea3fc25092786ecea9e16f098030554c/libcst-1.8.4-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:ea74c56cb11a1fdca9f8ab258965adce23e049ef525fdcc5c254a093e3de25cb", size = 2290710, upload-time = "2025-09-09T19:41:36.951Z" },
-    { url = "https://files.pythonhosted.org/packages/87/6e/ccd5eadeab6737aef9ad762e22cab7f3c1f8365ec7c73d7928ff0f47ec62/libcst-1.8.4-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:7fe97d432d95b6bcb1694a6d0fa7e07dde8fa687a637958126410ee2ced94b81", size = 2401652, upload-time = "2025-09-09T19:41:38.358Z" },
-    { url = "https://files.pythonhosted.org/packages/ca/0e/204ef502116d53ea3e9f8e50d23f648508828a8356f63ea822a3a798c086/libcst-1.8.4-cp313-cp313-win_amd64.whl", hash = "sha256:2c6d8f7087e9eaf005efde573f3f36d1d40366160155c195a6c4230d4c8a5839", size = 2110158, upload-time = "2025-09-09T19:41:39.773Z" },
-    { url = "https://files.pythonhosted.org/packages/3a/5c/aac5ea09d240d651990a27309732189f1c9cfa6103a1a80ade0531d79d04/libcst-1.8.4-cp313-cp313-win_arm64.whl", hash = "sha256:062e424042c36a102abd11d8e9e27ac6be68e1a934b0ecfc9fb8fea017240d2f", size = 1995791, upload-time = "2025-09-09T19:41:41.617Z" },
-    { url = "https://files.pythonhosted.org/packages/19/1d/76f76e8ff59bb30a9a972df121a3e18e90080e4ab952d121d7b15ac99f7e/libcst-1.8.4-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:873dd4e8b896f7cb0e78118badda55ec1f42e9301a4a948cc438955ff3ae2257", size = 2188733, upload-time = "2025-09-09T19:41:43.068Z" },
-    { url = "https://files.pythonhosted.org/packages/da/42/09c57e183673b810c456e1a671e5273e9827576fca48b3b528de0805063f/libcst-1.8.4-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:52c9376ba11ede5430e40aa205101dfc41202465103c6540f24591f898afb3d6", size = 2072316, upload-time = "2025-09-09T19:41:44.821Z" },
-    { url = "https://files.pythonhosted.org/packages/a4/e7/dfff4584d1b2349ae7877682842a99b2bc82f486157bd1bb85af1d719914/libcst-1.8.4-cp313-cp313t-manylinux_2_28_aarch64.whl", hash = "sha256:074a3b17e270237fb36d3b94d7492fb137cb74217674484ba25e015e8d3d8bdc", size = 2220187, upload-time = "2025-09-09T19:41:46.204Z" },
-    { url = "https://files.pythonhosted.org/packages/0a/45/17c15295ade7fd98b690d3dee212f93d4dc3ba18a5bacc77a387a6083f70/libcst-1.8.4-cp313-cp313t-manylinux_2_28_x86_64.whl", hash = "sha256:846aad04bac624a42d182add526d019e417e6a2b8a4c0bf690d32f9e1f3075ff", size = 2314794, upload-time = "2025-09-09T19:41:47.651Z" },
-    { url = "https://files.pythonhosted.org/packages/57/03/0a16d37cd5c087a4432cd4347cf73007c271558064b991e86329ec9defe5/libcst-1.8.4-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:93c76ab41d736b66d6fb3df32cd33184eed17666d7dc3ce047cf7ccdfe80b5b1", size = 2278846, upload-time = "2025-09-09T19:41:49.699Z" },
-    { url = "https://files.pythonhosted.org/packages/82/fb/0569199ce76f090820e594aa5e718d3e78dc94e9987c30bbefb8b67ba75f/libcst-1.8.4-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:5f167bf83dce662c9b499f1ea078ec2f2fee138e80f7d7dbd59c89ed28dc935f", size = 2390213, upload-time = "2025-09-09T19:41:51.72Z" },
-    { url = "https://files.pythonhosted.org/packages/23/68/18b9db68ce4cb198469d5e6d2049eba7b06e991da72c71981e55595a621a/libcst-1.8.4-cp313-cp313t-win_amd64.whl", hash = "sha256:43cbb6b41bc2c4785136f59a66692287d527aeb022789c4af44ad6e85b7b2baa", size = 2102430, upload-time = "2025-09-09T19:41:53.549Z" },
-    { url = "https://files.pythonhosted.org/packages/0c/fe/e221aa7b0ffe38a71ed36cbe79e43ecf4daea29db67e12f3bb08488fe2e4/libcst-1.8.4-cp313-cp313t-win_arm64.whl", hash = "sha256:6cc8b7e33f6c4677e220dd7025e1e980da4d3f497b9b8ee0320e36dd54597f68", size = 1983337, upload-time = "2025-09-09T19:41:55.099Z" },
+    { url = "https://files.pythonhosted.org/packages/b0/77/ca1d2499881c774121ebb7c78c22f371c179f18317961e1e529dafc1af52/libcst-1.8.5-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:8da9e9563dcd754b65557ba9cdff9a5af32cfa5f007be0db982429580db45bfe", size = 2196687, upload-time = "2025-09-26T05:28:31.769Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/1c/fdb7c226ad82fcf3b1bb19c24d8e895588a0c1fd2bc81e30792d041e15bc/libcst-1.8.5-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:61d56839d237e9bf3310e6479ffaf6659f298940f0e0d2460ce71ee67a5375df", size = 2082639, upload-time = "2025-09-26T05:28:33.358Z" },
+    { url = "https://files.pythonhosted.org/packages/af/1a/c6e89455483355971d13f6d71ad717624686b50558f7e2c12393c2c8e2f1/libcst-1.8.5-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:b084769dcda2036265fc426eec5894c658af8d4b0e0d0255ab6bb78c8c9d6eb4", size = 2229202, upload-time = "2025-09-26T05:28:35.276Z" },
+    { url = "https://files.pythonhosted.org/packages/02/9c/3e4ce737a34c0ada15a35f51d0dbd8bf0ac0cef0c4560ddc0a8364e3f712/libcst-1.8.5-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:c20384b8a4a7801b4416ef96173f1fbb7fafad7529edfdf151811ef70423118a", size = 2293220, upload-time = "2025-09-26T05:28:37.201Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/74/a68fcb3625b0c218c01aaefef9366f505654a1aa64af99cfe7ff7c97bf41/libcst-1.8.5-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:271b0b363972ff7d2b8116add13977e7c3b2668c7a424095851d548d222dab18", size = 2295146, upload-time = "2025-09-26T05:28:39.122Z" },
+    { url = "https://files.pythonhosted.org/packages/37/c3/f4b6edf204f919c6968eb2d111c338098aebbe3fb5d5d95aceacfcf65d9a/libcst-1.8.5-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:0ba728c7aee73b330f49f2df0f0b56b74c95302eeb78860f8d5ff0e0fc52c887", size = 2396597, upload-time = "2025-09-26T05:28:41.162Z" },
+    { url = "https://files.pythonhosted.org/packages/d0/94/b5cbe122db8f60e7e05bd56743f91d176f3da9b2101f8234e25bb3c5e493/libcst-1.8.5-cp313-cp313-win_amd64.whl", hash = "sha256:0abf0e87570cd3b06a8cafbb5378a9d1cbf12e4583dc35e0fff2255100da55a1", size = 2107479, upload-time = "2025-09-26T05:28:43.094Z" },
+    { url = "https://files.pythonhosted.org/packages/05/4d/5e47752c37b33ea6fd1fac76f62e2caa37a6f78d841338bb8fd3dcf51498/libcst-1.8.5-cp313-cp313-win_arm64.whl", hash = "sha256:757390c3cf0b45d7ae1d1d4070c839b082926e762e65eab144f37a63ad33b939", size = 1990992, upload-time = "2025-09-26T05:28:44.993Z" },
+    { url = "https://files.pythonhosted.org/packages/88/df/d0eaaed2c402f945fd049b990c98242cb6eace640258e9f8d484206a9666/libcst-1.8.5-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:f8934763389cd21ce3ed229b63b994b79dac8be7e84a9da144823f46bc1ffc5c", size = 2187746, upload-time = "2025-09-26T05:28:46.946Z" },
+    { url = "https://files.pythonhosted.org/packages/19/05/ca62c80dc5f2cf26c2d5d1428612950c6f04df66f765ab0ca8b7d42b4ba1/libcst-1.8.5-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:b873caf04862b6649a2a961fce847f7515ba882be02376a924732cf82c160861", size = 2072530, upload-time = "2025-09-26T05:28:48.451Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/38/34a5825bd87badaf8bc0725e5816d395f43ea2f8d1f3cb6982cccc70a1a2/libcst-1.8.5-cp313-cp313t-manylinux_2_28_aarch64.whl", hash = "sha256:50e095d18c4f76da0e03f25c50b52a2999acbcbe4598a3cf41842ee3c13b54f1", size = 2219819, upload-time = "2025-09-26T05:28:50.328Z" },
+    { url = "https://files.pythonhosted.org/packages/74/ea/10407cc1c06231079f5ee6c5e2c2255a2c3f876a7a7f13af734f9bb6ee0e/libcst-1.8.5-cp313-cp313t-manylinux_2_28_x86_64.whl", hash = "sha256:3a3c967725cc3e8fa5c7251188d57d48eec8835f44c6b53f7523992bec595fa0", size = 2283011, upload-time = "2025-09-26T05:28:51.808Z" },
+    { url = "https://files.pythonhosted.org/packages/5b/fc/c4e4c03b4804ac78b8209e83a3c15e449aa68ddd0e602d5c2cc4b7e1b9ed/libcst-1.8.5-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:eed454ab77f4b18100c41d8973b57069e503943ea4e5e5bbb660404976a0fe7a", size = 2283315, upload-time = "2025-09-26T05:28:53.33Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/39/75e07c2933b55815b71b1971e5388a24d1d1475631266251249eaed8af28/libcst-1.8.5-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:39130e59868b8fa49f6eeedd46f008d3456fc13ded57e1c85b211636eb6425f3", size = 2387279, upload-time = "2025-09-26T05:28:54.872Z" },
+    { url = "https://files.pythonhosted.org/packages/04/44/0315fb0f2ee8913d209a5caf57932db8efb3f562dbcdc5fb157de92fb098/libcst-1.8.5-cp313-cp313t-win_amd64.whl", hash = "sha256:a7b1cc3abfdba5ce36907f94f07e079528d4be52c07dfffa26f0e68eb1d25d45", size = 2098827, upload-time = "2025-09-26T05:28:56.877Z" },
+    { url = "https://files.pythonhosted.org/packages/45/c2/1335fe9feb7d75526df454a8f9db77615460c69691c27af0a57621ca9e47/libcst-1.8.5-cp313-cp313t-win_arm64.whl", hash = "sha256:20354c4217e87afea936e9ea90c57fe0b2c5651f41b3ee59f5df8a53ab417746", size = 1979853, upload-time = "2025-09-26T05:28:58.408Z" },
 ]
 
 [[package]]
