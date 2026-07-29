@@ -6,7 +6,7 @@ authors = [
     { name = "Taylor Monacelli", email = "taylormonacelli@gmail.com" }
 ]
 dependencies = [
-    "libcst==1.8.6",
+    "libcst==1.9.0",
 ]
 readme = "README.md"
 requires-python = "==3.14.6"
