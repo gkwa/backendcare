@@ -9,7 +9,7 @@ dependencies = [
     "libcst==1.9.0",
 ]
 readme = "README.md"
-requires-python = "==3.14.6"
+requires-python = "==3.14.7"
 
 [project.urls]
 Homepage = "https://github.com/gkwa/backendcare"
